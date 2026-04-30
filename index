@@ -1,0 +1,382 @@
+Index · HTML
+
+Show in Folder
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Open Now Dental | Evening &amp; Weekend Dentist in Riverton, UT</title>
+<meta name="description" content="Emergency and after-hours dental care in Riverton, Utah. Open Friday evenings and all weekend. Same-day appointments. Call 385-464-6864." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23ff6b5b'/%3E%3Cpath d='M32 16 v32 M16 32 h32' stroke='%23ffffff' stroke-width='8' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+ 
+<!-- Utility bar -->
+<div class="utility-bar">
+  <div class="container">
+    <div class="utility-meta">
+      <span>📍 Riverton, Utah</span>
+      <span>🕒 Open Fri 5–9pm · Sat &amp; Sun 8–5</span>
+    </div>
+    <div class="utility-meta">
+      <span>📧 <a href="mailto:ashley@opennowdental.com">ashley@opennowdental.com</a></span>
+      <span>📞 <a href="tel:+13854646864"><strong>385-464-6864</strong></a></span>
+    </div>
+  </div>
+</div>
+ 
+<!-- Header -->
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand" aria-label="Open Now Dental — Home">
+      <img src="logo.svg" alt="Open Now Dental" class="logo" />
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="tel:+13854646864" class="btn btn-primary nav-cta">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call 385-464-6864
+      </a></li>
+    </ul>
+  </div>
+</header>
+ 
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <span class="eyebrow"><span class="dot"></span> Open Right Now · Same-Day Care</span>
+      <h1>Tooth pain doesn't wait for Monday. <span class="accent">Neither do we.</span></h1>
+      <p class="lede">When other offices close, ours opens. Open Now Dental delivers gentle, judgment-free emergency and routine dental care on Friday evenings and all weekend long — right in Riverton, Utah.</p>
+      <div class="hero-cta">
+        <a href="tel:+13854646864" class="btn btn-primary btn-lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call Now · 385-464-6864
+        </a>
+        <a href="contact.html" class="btn btn-ghost btn-lg">Request Appointment</a>
+      </div>
+      <div class="hero-trust">
+        <div><strong>Same-Day</strong>Appointments</div>
+        <div><strong>4.9 ★</strong>From local patients</div>
+        <div><strong>Insurance</strong>Filed for you</div>
+      </div>
+    </div>
+ 
+    <!-- Hero illustration (SVG, no external photo dependency) -->
+    <div class="hero-art">
+      <svg viewBox="0 0 480 600" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <linearGradient id="bg-grad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#d8efe6"/>
+            <stop offset="100%" stop-color="#a9dccb"/>
+          </linearGradient>
+          <linearGradient id="tooth-grad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#e8f5ef"/>
+          </linearGradient>
+          <radialGradient id="glow" cx="0.5" cy="0.4" r="0.6">
+            <stop offset="0%" stop-color="rgba(255,255,255,0.7)"/>
+            <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+          </radialGradient>
+        </defs>
+        <rect width="480" height="600" fill="url(#bg-grad)"/>
+        <circle cx="240" cy="240" r="220" fill="url(#glow)"/>
+        <!-- decorative dots -->
+        <g fill="#2fa37f" opacity="0.18">
+          <circle cx="60" cy="80" r="6"/><circle cx="430" cy="120" r="4"/>
+          <circle cx="80" cy="500" r="5"/><circle cx="410" cy="540" r="7"/>
+          <circle cx="380" cy="60" r="3"/>
+        </g>
+        <!-- big tooth -->
+        <g transform="translate(240,300)">
+          <path d="M0,-160c-50,0-80,30-110,30s-50-15-50,40c0,60 25,90 35,160 6,46 22,90 50,90 30,0 25,-70 75,-70s45,70 75,70c25,0 44,-44 50,-90 12,-70 35,-100 35,-160 0,-55 -38,-40 -65,-40S55,-160 0,-160z" fill="url(#tooth-grad)" stroke="#176852" stroke-width="5" stroke-linejoin="round"/>
+          <!-- clock face on tooth -->
+          <circle cx="0" cy="-30" r="60" fill="#fff" stroke="#2fa37f" stroke-width="4"/>
+          <g stroke="#176852" stroke-width="3" stroke-linecap="round" fill="none">
+            <line x1="0" y1="-65" x2="0" y2="-58"/>
+            <line x1="0" y1="-2" x2="0" y2="5"/>
+            <line x1="-35" y1="-30" x2="-28" y2="-30"/>
+            <line x1="35" y1="-30" x2="28" y2="-30"/>
+          </g>
+          <line x1="0" y1="-30" x2="0" y2="-70" stroke="#176852" stroke-width="4" stroke-linecap="round"/>
+          <line x1="0" y1="-30" x2="28" y2="-30" stroke="#ff6b5b" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="0" cy="-30" r="4" fill="#176852"/>
+        </g>
+        <!-- sparkles -->
+        <g fill="#ffb547">
+          <path d="M120 200 l4 -16 4 16 16 4 -16 4 -4 16 -4 -16 -16 -4z"/>
+          <path d="M380 380 l3 -12 3 12 12 3 -12 3 -3 12 -3 -12 -12 -3z" opacity="0.85"/>
+        </g>
+      </svg>
+      <div class="hero-card tl">
+        <span class="ico">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </span>
+        <div>
+          <strong>Open Right Now</strong>
+          <span style="color:var(--ink-500); font-size:0.82rem;">Same-day appointments</span>
+        </div>
+      </div>
+      <div class="hero-card br">
+        <span class="ico">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </span>
+        <div>
+          <strong>Walk-Ins Welcome</strong>
+          <span style="color:var(--ink-500); font-size:0.82rem;">Just call ahead</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- Services -->
+<section id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">What We Do</span>
+      <h2>Care for the moments you can't put off</h2>
+      <p>From a chipped tooth on Saturday morning to a routine cleaning that finally fits your schedule — we cover the full range of dental needs.</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <span class="ico">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L4 6v6c0 5 3.5 9.5 8 10 4.5-.5 8-5 8-10V6l-8-4z"/><path d="m9 12 2 2 4-4"/></svg>
+        </span>
+        <h3>Emergency Dental Care</h3>
+        <p>Severe toothaches, broken teeth, lost crowns, abscesses, swelling — we'll get you out of pain fast.</p>
+      </div>
+      <div class="card">
+        <span class="ico">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        </span>
+        <h3>Cleanings &amp; Checkups</h3>
+        <p>Comprehensive exams, X-rays, and gentle cleanings — scheduled around your weekend, not your work week.</p>
+      </div>
+      <div class="card">
+        <span class="ico">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h6l3-9 4 18 3-9h4"/></svg>
+        </span>
+        <h3>Fillings &amp; Restorations</h3>
+        <p>Tooth-colored composite fillings, crowns, and same-visit repairs to get your smile back to normal.</p>
+      </div>
+      <div class="card">
+        <span class="ico">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-12a8 8 0 1 0-16 0c0 8 8 12 8 12z"/><circle cx="12" cy="10" r="3"/></svg>
+        </span>
+        <h3>Root Canals &amp; Extractions</h3>
+        <p>Compassionate, modern techniques that take the dread out of bigger procedures. Sedation available.</p>
+      </div>
+      <div class="card">
+        <span class="ico">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15 9 22 9 17 14 19 22 12 17 5 22 7 14 2 9 9 9"/></svg>
+        </span>
+        <h3>Cosmetic Dentistry</h3>
+        <p>Whitening, veneers, and smile makeovers that brighten your confidence in time for the week ahead.</p>
+      </div>
+      <div class="card">
+        <span class="ico">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11V7a3 3 0 0 1 6 0v4"/><rect x="5" y="11" width="14" height="10" rx="2"/></svg>
+        </span>
+        <h3>Pediatric &amp; Family Care</h3>
+        <p>From toddler check-ups to teen orthodontic referrals, we treat the whole family in one trip.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- Hours block -->
+<section style="padding-top:0;">
+  <div class="container">
+    <div class="hours-section">
+      <div>
+        <span class="eyebrow" style="background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.15); color:#fff;"><span class="dot"></span> Live Status</span>
+        <h2 style="margin-top:14px;">When you need us most — that's when we're open.</h2>
+        <p>Most dentists keep banker's hours. We don't. Open Now Dental is built around the times real people actually have free: weekend mornings, Friday after work, and Sunday afternoons.</p>
+        <a href="tel:+13854646864" class="btn btn-primary btn-lg" style="margin-top:8px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call 385-464-6864
+        </a>
+      </div>
+      <div>
+        <ul class="hours-list">
+          <li><span class="day">Monday</span><span class="time closed">Closed</span></li>
+          <li><span class="day">Tuesday</span><span class="time closed">Closed</span></li>
+          <li><span class="day">Wednesday</span><span class="time closed">Closed</span></li>
+          <li><span class="day">Thursday</span><span class="time closed">Closed</span></li>
+          <li><span class="day">Friday</span><span class="time open">5:00 pm – 9:00 pm</span></li>
+          <li><span class="day">Saturday</span><span class="time open">8:00 am – 5:00 pm</span></li>
+          <li><span class="day">Sunday</span><span class="time open">8:00 am – 5:00 pm</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- How it works -->
+<section style="background:var(--soft);">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">How It Works</span>
+      <h2>From toothache to relief in three steps</h2>
+      <p>No app, no insurance maze, no waiting weeks for an opening. Just call.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="num">01</div>
+        <h3>Call or text us</h3>
+        <p>Reach a real person at <a href="tel:+13854646864">385-464-6864</a>. Tell us what's going on and we'll get you on the schedule — often within the hour.</p>
+      </div>
+      <div class="step">
+        <div class="num">02</div>
+        <h3>Come on in</h3>
+        <p>Arrive at our Riverton office. We'll handle the paperwork, the X-rays, and yes — the insurance forms.</p>
+      </div>
+      <div class="step">
+        <div class="num">03</div>
+        <h3>Leave smiling</h3>
+        <p>We treat what's bothering you that day, then walk you through any follow-up care so nothing's a surprise.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- Why us / two-col -->
+<section>
+  <div class="container two-col">
+    <div>
+      <span class="eyebrow">Why Open Now</span>
+      <h2 style="margin-top:14px;">Built for people with full lives, not empty calendars.</h2>
+      <p>We started Open Now Dental because the old model just didn't fit the way most people actually live. Parents juggling soccer schedules. Shift workers who can't take a Tuesday afternoon off. Families on vacation when something cracks.</p>
+      <p>Our team is fully credentialed, fully equipped, and ready when you are. We're not an after-hours triage line — we're a complete dental practice that simply chose better hours.</p>
+      <ul style="list-style:none; padding:0; margin:18px 0 24px; display:grid; gap:10px;">
+        <li style="display:flex; gap:10px; align-items:flex-start;"><span style="color:var(--mint-600);">✓</span> Most major insurance accepted &amp; filed</li>
+        <li style="display:flex; gap:10px; align-items:flex-start;"><span style="color:var(--mint-600);">✓</span> Transparent, upfront pricing — no surprises</li>
+        <li style="display:flex; gap:10px; align-items:flex-start;"><span style="color:var(--mint-600);">✓</span> Modern digital X-rays &amp; same-day crowns</li>
+        <li style="display:flex; gap:10px; align-items:flex-start;"><span style="color:var(--mint-600);">✓</span> Sedation options for anxious patients</li>
+      </ul>
+      <a href="about.html" class="btn btn-secondary">Meet our team</a>
+    </div>
+    <div class="img-frame">
+      <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:100%;">
+        <defs>
+          <linearGradient id="ig1" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#f1faf7"/>
+            <stop offset="100%" stop-color="#a9dccb"/>
+          </linearGradient>
+        </defs>
+        <rect width="400" height="300" fill="url(#ig1)"/>
+        <!-- abstract office shapes -->
+        <rect x="40" y="180" width="320" height="80" rx="14" fill="#fff" opacity="0.85"/>
+        <rect x="60" y="60" width="120" height="130" rx="14" fill="#fff" opacity="0.9"/>
+        <circle cx="280" cy="120" r="60" fill="#2fa37f" opacity="0.85"/>
+        <circle cx="280" cy="120" r="32" fill="#fff"/>
+        <path d="M270 120 l8 8 l16 -18" stroke="#176852" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="120" y="135" font-family="Fraunces, Georgia, serif" font-size="22" fill="#176852" text-anchor="middle">Welcome</text>
+      </svg>
+    </div>
+  </div>
+</section>
+ 
+<!-- Testimonials -->
+<section class="testimonials">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Patient Stories</span>
+      <h2>People send their friends here.</h2>
+      <p>Real reviews from neighbors across the south valley.</p>
+    </div>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <blockquote>"Cracked a molar Saturday morning at breakfast. Called at 8:15, was in the chair by 10. Friendly, fast, and didn't lecture me about flossing. I'll be back."</blockquote>
+        <cite>Jenna R. <span>Riverton, UT</span></cite>
+      </div>
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <blockquote>"My son knocked his front tooth loose at a Sunday game. Every other office said 'Monday.' Open Now took us in within an hour. Saved the tooth — and our weekend."</blockquote>
+        <cite>Marcus T. <span>South Jordan, UT</span></cite>
+      </div>
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <blockquote>"I work nights and could never make a normal appointment. Finally, a dentist whose hours match mine. Cleaning was thorough and the team is genuinely warm."</blockquote>
+        <cite>Priya S. <span>Herriman, UT</span></cite>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- CTA banner -->
+<section>
+  <div class="container">
+    <div class="cta-banner">
+      <div>
+        <h2>In pain right now?</h2>
+        <p>You don't have to wait until Monday. Tap to call — we'll answer.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="tel:+13854646864" class="btn btn-primary btn-lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call 385-464-6864
+        </a>
+        <a href="contact.html" class="btn btn-ghost btn-lg" style="background:rgba(255,255,255,0.12); color:#fff; border-color:rgba(255,255,255,0.3);">Email us</a>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand" style="margin-bottom:14px;">
+          <img src="logo-white.svg" alt="Open Now Dental" class="logo" />
+        </div>
+        <p>Evening and weekend dental care for the south Salt Lake valley. Compassionate, modern, judgment-free.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>Riverton, Utah</li>
+          <li>Free parking</li>
+          <li><a href="contact.html">Get directions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul>
+          <li>Fri 5:00pm – 9:00pm</li>
+          <li>Sat 8:00am – 5:00pm</li>
+          <li>Sun 8:00am – 5:00pm</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+13854646864">385-464-6864</a></li>
+          <li><a href="mailto:ashley@opennowdental.com">ashley@opennowdental.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Open Now Dental. All rights reserved.</span>
+      <span>Riverton, UT · opennowdental.com</span>
+    </div>
+  </div>
+</footer>
+ 
+</body>
+</html>
