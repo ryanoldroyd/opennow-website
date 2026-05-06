@@ -112,7 +112,7 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 }
 .brand img.logo-sm { height: 40px; }
 .brand img.logo-lg { height: 64px; }
-.site-footer .brand img.logo { height: 56px; }
+.site-footer .brand img.logo { height: auto; max-height: 70px; max-width: 220px; }
 @media (max-width: 640px) {
   .brand img.logo { height: 40px; }
 }
