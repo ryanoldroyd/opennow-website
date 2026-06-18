@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# This is a static site (GitHub Pages) — there are no private backend
+# directories to exclude. Everything public is crawlable.
+
+Sitemap: https://www.opennowdental.com/sitemap.xml
